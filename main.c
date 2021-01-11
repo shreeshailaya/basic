@@ -1,17 +1,17 @@
 #include<stdio.h>
-///Q-58
-int main(){
-    int i,j,count;
-    count=0;
-    for (i=0;i<2;i++){
-        for(j=0;j<5;j++){
-            count++;
-            
-        }
-    }
-    printf("%d",count);
+///Q-64
+
+
+int main()
+{
+    int x=0,y=1;
+    int z=2;
+    z=z++ + y;
+    printf("\n x:%d y:%d z:%d \n",x,y,z);
     return 0;
 }
+
+///Answer 1
 
 /*
 ///Q-58
@@ -38,6 +38,25 @@ int main(){
     printf("%d",count);
     return 0;
 }
+///Answer 10
+
+///Q-64
+int main(){
+    int i,j,count;
+    count=0;
+    for (i=0;i<5;i++);
+    {
+        for(j=0;j<5;j++);
+        {
+            count++;
+            
+        }
+    }
+    printf("%d",count);
+    return 0;
+}
+
+///Answer 1
 
 int main(){
     char S[80];
