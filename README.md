@@ -1,7 +1,6 @@
-# basic
-# basic
-#JAVA BY DURGA SIR 
-###1. Java Source File Structure 
+
+# JAVA BY DURGA SIR 
+### 1. Java Source File Structure 
 - 	Java file contain any number of class but only but atmost one can be decleared as public.
 - 	If there is no public class the we can use any name for java program .
 - 	If there is a public class name of the program should be a class name.
@@ -10,7 +9,7 @@
 
 IMAGE 1
 
-###2. Java Source File Structure [Import Statement ](https://www.youtube.com/watch?v=5NQjLBuNL0I&list=RDCMUCbjozK_PYCTLEluFlrJ8UZg&t=1461s "Import Statement ")
+### 2. Java Source File Structure [Import Statement ](https://www.youtube.com/watch?v=5NQjLBuNL0I&list=RDCMUCbjozK_PYCTLEluFlrJ8UZg&t=1461s "Import Statement ")
 There is two types of import statement.
 -Implicit import 
 `import java.util*`
@@ -26,13 +25,13 @@ There is two types of import statement.
 if there is class is java -> util -> regex -> Pattern 
 - then you have to import `import java.util.regx.*`
 
-###3.Java Source File Structure Package
+### 3.Java Source File Structure Package
 - Package is the encapsulation/groping mechanism to group related calsses and interfaces into a single unit.
 - With the help of package we can avoid naming conflict.
 - Maintainability
 - Security
 
-#####Writing Package in java
+##### Writing Package in java
 - package is keyword in java.
 - To declear the package we write in header of package `package com.mech2it.ocja`
 - This is the universal naming conventation that is used to name the package.
@@ -46,9 +45,10 @@ if there is class is java -> util -> regex -> Pattern
 - If you want to import package, package must be decleared in the first line of program. 
     Order for import and package 
 ```java
-    package com.mech2it.ocja		   Atmost 1
-    import java.util.*							Any Number 
-    class/interface/enum					Any Number
+    package com.mech2it.ocja		// Atmost 1 //
+    import java.util.*				
+    // Any Number //
+    class/interface/enum			// Any Number //
 ```
-###4. Class level Modifiers: public and default
+### 4. Class level Modifiers: public and default
 
